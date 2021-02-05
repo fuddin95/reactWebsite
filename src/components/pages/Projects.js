@@ -16,7 +16,7 @@ export default function Projects (){
         <Card 
         link="/MechanicalDesign" 
         name="Mechanical Design" 
-        image="/images/img-1.jpg"
+        image="$/images/img-1.jpg"
         description="hello this my mech project"
 
         />
@@ -24,7 +24,7 @@ export default function Projects (){
         <Card 
         link="/WebPages" 
         name="Web Pages" 
-        image="./mech.jpg"
+        image={require("./mech.jpg")}
         description="This will take you to all of my web projects"
 
         /> 
@@ -32,7 +32,7 @@ export default function Projects (){
         <Card 
         link="/Development" 
         name="Projects in development" 
-        image="/pages/mech.jpg"
+        image={require("../../images/img-1.jpg")}
         description="Things that I am currently working on"
 
         /> 
